@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+a{
+    display: block;
+}
+nav{
+    background-color: #7fa6f1;
+    padding: 10px;
+}
+
+
+#navbarNav{
+    background-color: #7fa6f1;
+    margin: 0;
+    padding: 10px;
+}
+
+.polosa{
+    width: -100px;
+    height: 3px;
+    background-color: #fff;
+}
+.nav_bar{
+    display: flex; justify-content: space-around;
+}
+.cards{
+    display: flex; justify-content: space-between; margin-bottom: 20px;
+}
+.cards a{
+    text-decoration: none; margin-right: 20px;
+}
+.container{
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_info img{
+    width: 50%; height: 30%; margin-right: 20px;border-radius: 15px;
+    margin-left: 20px;
+}
+.scr_gro{
+    font-size: 20px;
+}
+.main_info p{
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.container_main{
+    background-color: #7fa6f1;
+    background-image: url(../style/backgraund.png);
+    background-repeat: no-repeat;
+
+}
+.video_gto{
+    display: flex; justify-content: space-around;
+}
+.descript{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #7fa6f1;
+}
+.descript p{
+    margin: 22px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #7fa6f1;
+}
+
+h2{
+    text-align: center;
+}
+h5{
+    font-size: 23px;
+}
+.new{
+    border: 3px dashed #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.story{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.feedback{
+    font-size: 25px;
+}
+.right img{
+    margin-right: 15px;
+}
+.left img{
+    margin-left: 15px;
+}
+#carouselExampleCaptions img{
+    border-radius:15px;
+    width: 430px!important;
+    border: 0.5px solid #7fa6f1;
+}
+.new img{ 
+    /* фото обрезать в отношении 4:3 */
+    width: 30%;
+    height: 30%;
+}
+.carousel-item img{
+    width: 40%;
+    height: 10%;
+}
+.about_text p{
+    text-align: right;
+    margin-left: 20px;
+}
+.footer_info p{
+    font-size: 15px!important;
+}
+@media (max-width:1256px) and (min-width:769px) {
+    .main_info{
+        display: block;
+        width: 100%;
+    }
+    .main_info p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .main_info img{
+        width: 90%;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+    .descript{
+        display: flex;
+        justify-content: space-around;
+    }
+    .descript p{
+        font-size: 15px;
+    }
+    .story{
+        display: block;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .story p{
+        font-size: 20px;
+    }
+    .story img{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    #carouselExampleCaptions{
+        width: 70%;
+        position: relative;
+        left: 90px;
+        
+    }
+    #carouselExampleCaptions img{
+        border-radius:15px;
+        width: 330px!important;
+        border: 0.5px solid #7fa6f1;
+    }
+    .about_text p{
+        text-align: center;
+        margin:10px 0 0 0;
+
+    }
+    .nav_bar{
+        display: block;
+    }
+    .nav_bar a{
+        font-size: 15px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .card{
+        width: 230px!important;
+        height:235px!important;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .car_students{
+        position: relative;
+        left: 165px;
+    }
+    .gto_img img{
+        width: 70%;
+    }
+    .gto_img a{
+        width: max-content;
+    }
+    .video_gto{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .dad_v{
+        margin-left: 25px;
+    }
+    .scr_gro{
+        font-size: 15px;
+    }
+    .feedback{
+        font-size: 15px;
+    }
+    
+    
+}
+@media (max-width:768px) and (min-width:200px) {
+    .main_info{
+        display: block;
+        width: 100%;
+    }
+    .main_info p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .main_info img{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+    .descript{
+        display: block;
+    }
+    .descript p{
+        font-size: 15px;
+    }
+    .story{
+        display: block;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .story p{
+        font-size: 15px;
+    }
+    .story img{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .container p{
+        font-size: 15px;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    #carouselExampleCaptions{
+        width: 70%;
+        position: relative;
+        left: 45px;
+    }
+    .about_text p{
+        text-align: center;
+        margin:10px 0 0 0;
+
+    }
+    .nav_bar{
+        display: block;
+    }
+    .nav_bar a{
+        font-size: 15px;
+    }
+    .cards{
+        display: block;
+        width: min-content;
+        position: relative;
+        left: 100px;
+        
+    }
+    .cards a{
+        width: min-content;
+        margin-bottom: 15px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .car_students{
+        position: relative;
+        left: 90px;
+    }
+    .gto_img img{
+        width: 70%;
+    }
+    .gto_img a{
+        width: max-content;
+    }
+    .video_gto{
+        display: block;
+        width: min-content;
+    }
+    .dad_v{
+        position: relative;
+        left: 15px;
+        margin-top: 10px;
+    }
+    .girl_v{
+        position: relative;
+        left:60px;
+
+    }
+    .scr_gro{
+        font-size: 15px;
+    }
+    .feedback{
+        font-size: 15px;
+    }
+    .footer_info p{
+        font-size: 10px!important;
+    }
+    
+}
