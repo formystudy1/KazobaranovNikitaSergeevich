@@ -287,7 +287,7 @@ h5{
         font-size: 15px;
     }
     .cards{
-        display: block;
+        display: block!important;
         width: min-content;
         position: relative;
         left: 100px;
@@ -299,6 +299,9 @@ h5{
     }
     .card p{
         font-size: 15px;
+    }
+    .card{
+        margin-left:0!important;
     }
     .car_students{
         position: relative;
